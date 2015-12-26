@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Socket.IO chat</title>
+    <link rel="stylesheet" href=""/>
+    <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.css"/>
+    <style>
+    </style>
+  </head>
+  <body>
+    <input type="text" value="aaa" id="messages"/>
+
+
+  </body>
+  <script src="../bower_components/jquery/dist/jquery.js"></script>
+  <script src="../bower_components/bootstrap/dist/js/bootstrap.js"></script>
+  <script src="/js/d3.js"></script>
+  <script>
+    var socket = io()
+    socket.on('message', function(msg){
+      $('#messages').val(msg.C);
+    });
+
+  </script>
+</html>

@@ -1,0 +1,14 @@
+{
+  "name": "socket-chat-example",
+  "version": "0.0.1",
+  "description": "my first socket.io app",
+  "dependencies": {
+    "ejs": "^2.3.4",
+    "express": "4.10.2",
+    "johnny-five": "^0.9.17",
+    "mongoose": "^4.3.4",
+    "require-directory": "^2.1.1",
+    "serialport": "^2.0.5",
+    "socket.io": "1.2.0"
+  }
+}

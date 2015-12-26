@@ -1,0 +1,28 @@
+{
+  "name": "socket-chat-example",
+  "description": "my first socket.io app",
+  "main": "",
+  "authors": [
+    "jimscx <jimscx@163.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/jimscx/",
+  "moduleType": [
+    "amd",
+    "es6",
+    "globals",
+    "node",
+    "yui"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "normalize-css": "normalize.css#~3.0.3",
+    "bootstrap": "~3.3.6"
+  }
+}
