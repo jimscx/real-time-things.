@@ -1,12 +1,12 @@
 {
-  "name": "socket-chat-example",
-  "description": "my first socket.io app",
+  "name": "real-time-things",
+  "description": "realtime things",
   "main": "",
   "authors": [
     "jimscx <jimscx@163.com>"
   ],
   "license": "MIT",
-  "homepage": "https://github.com/jimscx/",
+  "homepage": "https://github.com/jimscx/real-time-things.",
   "moduleType": [
     "amd",
     "es6",
