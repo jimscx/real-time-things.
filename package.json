@@ -1,7 +1,7 @@
 {
   "name": "socket-chat-example",
   "version": "0.0.1",
-  "description": "my first socket.io app",
+  "description": "realTime things",
   "dependencies": {
     "ejs": "^2.3.4",
     "express": "4.10.2",
